@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 52px;
+    background: #282722;
+    color: #fff;
+}
+
+nav .title {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+}
+
+.container {
+    width: 60%;
+    padding: 30px 0;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+div.code-toolbar>.toolbar button {
+    color: #fff;
+    border-radius: 15px;
+    border: 1px solid #fff;
+    padding: 5px 14px;
+    margin-top: 10px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+div.code-toolbar>.toolbar button:hover {
+    color: #fff;
+}

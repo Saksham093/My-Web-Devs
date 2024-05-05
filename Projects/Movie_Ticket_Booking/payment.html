@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Payment</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/payment.css" />
+    <link rel="icon" type="image/icon" href="images/favicon.ico">
+  </head>
+  <body>
+    <div class="payment">
+      <div class="card">
+        <img src="images/qr.png" class="card-img-top" alt="qr" />
+        <div class="payment-container">
+          <h4 class="payment-title">Do Payment</h4>
+          <button
+            class="btn btn-primary"
+            role="button"
+            aria-label="Open UPI App to do payment"
+            onclick="window.location.href='upi://pay?pa=mr.saksham@apl&pn=M_SAKSHAM&cu=INR&am=200'"
+          >
+            Open UPI App
+          </button>
+        </div>
+        <div class="card-body">
+          <label for="maillabel">Your Mail ID (To Share Ticket)</label>
+          <input
+            type="email"
+            id="mail_id"
+            name="mailid"
+            placeholder="Your Mail..."
+          />
+
+          <label for="lname">Bank Reference No. \ UTR No.</label>
+          <input
+            type="number"
+            id="reference_no"
+            name="lastname"
+            placeholder="Reference No..."
+          />
+        </div>
+        <div class="payment-container">
+          <button class="btn btn-confirm" onclick="confirmPayment()">
+            Confirm Payment
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Structure -->
+    <div id="myModal" class="modal" style="display: none">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p id="modalText">Thank you for confirmation! Your movie ticket will be shared via email within 24 hours. For assistance, please contact us on WhatsApp: <a href="https://wa.me/919656709933?text=Hello!%20I%20need%20help." target="_blank">WhatsApp Support</a>.<p>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-content">
+        Developed By
+        <a href="https://twitter.com/M_Saksham093" target="_blank"
+          ><img src="images/my_logo.png" alt="Developer Logo" class="logo"
+        /></a>
+        with <span class="heart">&#x2764;</span>
+      </div>
+    </footer>
+
+    <script src="js/pay.js"></script>
+  </body>
+</html>

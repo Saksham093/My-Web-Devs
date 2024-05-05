@@ -1,0 +1,173 @@
+.card {
+    position: relative;
+    width: 320px;
+    height: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+}
+
+.card .language-flag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    z-index: 4; /* Ensures the flag appears above other elements */
+}
+
+.card .poster {
+    position: relative;
+    overflow: hidden;
+}
+
+.card .poster::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, #000000 20%, transparent);
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.card .poster img {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    object-fit: contain;
+}
+
+.card .details {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    padding: 20px;
+    width: 100%;
+    z-index: 2;
+    transition: 0.5s;
+}
+
+.card .details .title {
+    padding: 5px 0;
+    color: #fff;
+}
+
+.card .details .time {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    bottom: 55px;
+}
+
+.card .details .time h6 {
+    font-size: 13px;
+    margin-right: 15px;
+}
+
+.card .details .time h6 i {
+    margin-right: 5px;
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    z-index: 5;
+    width: 80%;
+    box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.4);
+    border-radius: 10px;
+    padding: 20px;
+    display: none;
+    pointer-events: auto;
+}
+
+.popup-content {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
+    pointer-events: auto;
+}
+
+.close-btn {
+    position: absolute;
+    top: 5px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    color: #06D85F;
+  }
+
+.bi-info-circle {
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+
+
+.card .booking .button {
+    position: absolute;
+    bottom: 10px;
+    padding: 10px;
+    z-index: 3;
+    left: 25%;
+    right: 25%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #f44336;
+    border-radius: 8px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    box-shadow: 0 8px 8px 0 rgba(213, 26, 26, 0.2), 0 6px 20px 0 rgba(83, 186, 8, 0.19);
+    transition: 0.2s;
+}
+
+.card .booking .button:hover {
+    box-shadow: 0 8px 8px 0 rgba(255, 255, 255, 0.24), 0 17px 50px 0 rgba(255, 255, 255, 0.19);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    /* background-color: #f1f1f1; */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    font-weight: 600;
+}
+
+.footer-content {
+    display: inline-block;
+    text-align: center;
+}
+
+.logo {
+    height: 25px;
+    vertical-align: middle;
+}
+
+.heart {
+    color: red;
+    font-size: 20px;
+    vertical-align: middle;
+}
