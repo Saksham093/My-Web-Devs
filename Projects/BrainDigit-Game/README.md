@@ -123,32 +123,32 @@ Responsive navigation bar with links to different pages.
 
 ### 1. Welcome Page
 
-![Welcome Page](Projects/BrainDigit-Game/img/1.png)
+![Welcome Page](img/1.png)
 *Screenshot of the Welcome Page with a "Start" button.*
 
 ### 2. Settings Page
 
-![Settings Page](Projects/BrainDigit-Game/img/2.png)
+![Settings Page](img/2.png)
 *Screenshot of dropdowns for digit settings.*
 
 ### 3. Game Page
 
-![Game Page](Projects/BrainDigit-Game/img/3.png)
+![Game Page](img/3.png)
 *Screenshot showing a single digit with animation.*
 
 ### 4. Result Page
 
-![Result Page](Projects/BrainDigit-Game/img/4.png)
+![Result Page](img/4.png)
 *Screenshot of OTP-like input fields.*
 
 ### 5. Submit Page
 
-![Submit Page](Projects/BrainDigit-Game/img/5.png)
+![Submit Page](img/5.png)
 *Screenshot of the final results and confetti effect.*
 
 ### 6. Responsive View
 
-![Responsive View](Projects/BrainDigit-Game/img/phone.png)\
+![Responsive View](img/phone.png)\
 *Screenshot of the app on a mobile device.*
 
 ## Step-by-Step Guide
