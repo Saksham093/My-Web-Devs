@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&display=swap');
+
+/* Global Styles */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Prevent extra scrollbars */
+  font-family: 'Outfit', sans-serif;
+}
+
+/* App Container with Dynamic Gradient */
+.app-container {
+  margin: 0;
+  font-family: 'Outfit', sans-serif;
+  background: linear-gradient(97deg, #7b2f87, #9ede87, #2ddd65, #4727d9, #b0548d, #7de7a4);
+  background-size: 360% 360%;
+  animation: gradient-animation 12s ease infinite;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Navigation Styles */
+nav {
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin: 0 15px;
+}
+
+nav a:hover {
+  color: #61dafb;
+}
+
+nav .menu {
+  display: none;
+}
+
+/* Footer Styles */
+footer {
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  /* Navigation for Mobile */
+  nav {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  nav a {
+    margin: 10px 0;
+    font-size: 1rem;
+  }
+
+  nav .menu {
+    display: block;
+    font-size: 1.5rem;
+    margin-left: auto;
+  }
+
+  /* Adjust Content Layout */
+  .app-container {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .App-header {
+    font-size: calc(8px + 1.5vmin);
+  }
+
+  .App-logo {
+    height: 30vmin;
+  }
+
+  /* Adjust Footer */
+  footer {
+    font-size: 0.9rem;
+    padding: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Further Reduce Font Sizes */
+  nav a {
+    font-size: 0.9rem;
+  }
+
+  footer {
+    font-size: 0.8rem;
+  }
+
+  .app-container {
+    font-size: 0.9rem;
+  }
+}
+
+/* Dynamic Gradient Animation */
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@-webkit-keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Utility Styles */
+.text-center {
+  text-align: center;
+}
+
+.full-height {
+  height: 100vh;
+}
