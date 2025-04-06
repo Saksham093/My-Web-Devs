@@ -1,0 +1,111 @@
+[
+    {
+      "exchange": "New York Stock Exchange (NYSE)",
+      "country": "United States",
+      "openTimeIST": "7:00 PM",
+      "closeTimeIST": "1:30 AM",
+      "localTimeZone": "Eastern Time (ET)",
+      "openTimeLocal": "9:30 AM",
+      "closeTimeLocal": "4:00 PM"
+    },
+    {
+      "exchange": "NASDAQ",
+      "country": "United States",
+      "openTimeIST": "7:00 PM",
+      "closeTimeIST": "1:30 AM",
+      "localTimeZone": "Eastern Time (ET)",
+      "openTimeLocal": "9:30 AM",
+      "closeTimeLocal": "4:00 PM"
+    },
+    {
+      "exchange": "London Stock Exchange (LSE)",
+      "country": "United Kingdom",
+      "openTimeIST": "1:30 PM",
+      "closeTimeIST": "10:00 PM",
+      "localTimeZone": "Greenwich Mean Time (GMT)",
+      "openTimeLocal": "8:00 AM",
+      "closeTimeLocal": "4:30 PM"
+    },
+    {
+      "exchange": "Tokyo Stock Exchange (TSE)",
+      "country": "Japan",
+      "openTimeIST": "5:30 AM",
+      "closeTimeIST": "11:30 AM",
+      "localTimeZone": "Japan Standard Time (JST)",
+      "openTimeLocal": "9:00 AM",
+      "closeTimeLocal": "3:00 PM"
+    },
+    {
+      "exchange": "Shanghai Stock Exchange (SSE)",
+      "country": "China",
+      "openTimeIST": "7:00 AM",
+      "closeTimeIST": "12:30 PM",
+      "localTimeZone": "China Standard Time (CST)",
+      "openTimeLocal": "9:30 AM",
+      "closeTimeLocal": "3:00 PM"
+    },
+    {
+      "exchange": "Hong Kong Stock Exchange (HKEX)",
+      "country": "Hong Kong",
+      "openTimeIST": "6:45 AM",
+      "closeTimeIST": "1:30 PM",
+      "localTimeZone": "Hong Kong Time (HKT)",
+      "openTimeLocal": "9:30 AM",
+      "closeTimeLocal": "4:00 PM"
+    },
+    {
+      "exchange": "Euronext",
+      "country": "European Union",
+      "openTimeIST": "12:30 PM",
+      "closeTimeIST": "9:00 PM",
+      "localTimeZone": "Central European Time (CET)",
+      "openTimeLocal": "9:00 AM",
+      "closeTimeLocal": "5:30 PM"
+    },
+    {
+      "exchange": "Deutsche Börse (Frankfurt Stock Exchange)",
+      "country": "Germany",
+      "openTimeIST": "12:30 PM",
+      "closeTimeIST": "2:30 AM",
+      "localTimeZone": "Central European Time (CET)",
+      "openTimeLocal": "9:00 AM",
+      "closeTimeLocal": "11:00 PM"
+    },
+    {
+      "exchange": "Australian Securities Exchange (ASX)",
+      "country": "Australia",
+      "openTimeIST": "5:30 AM",
+      "closeTimeIST": "11:30 AM",
+      "localTimeZone": "Australian Eastern Time (AET)",
+      "openTimeLocal": "10:00 AM",
+      "closeTimeLocal": "4:00 PM"
+    },
+    {
+      "exchange": "Toronto Stock Exchange (TSX)",
+      "country": "Canada",
+      "openTimeIST": "8:00 PM",
+      "closeTimeIST": "2:30 AM",
+      "localTimeZone": "Eastern Time (ET)",
+      "openTimeLocal": "9:30 AM",
+      "closeTimeLocal": "4:00 PM"
+    },
+    {
+      "exchange": "Bombay Stock Exchange (BSE)",
+      "country": "India",
+      "openTimeIST": "9:15 AM",
+      "closeTimeIST": "3:30 PM",
+      "localTimeZone": "Indian Standard Time (IST)",
+      "openTimeLocal": "9:15 AM",
+      "closeTimeLocal": "3:30 PM"
+    },
+    {
+      "exchange": "National Stock Exchange (NSE)",
+      "country": "India",
+      "openTimeIST": "9:15 AM",
+      "closeTimeIST": "3:30 PM",
+      "localTimeZone": "Indian Standard Time (IST)",
+      "openTimeLocal": "9:15 AM",
+      "closeTimeLocal": "3:30 PM"
+    }
+  ]
+  

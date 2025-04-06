@@ -1,0 +1,37 @@
+/* src/components/StockMarketTable.css */
+.table-container {
+    overflow-x: auto;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+  }
+  
+  th,
+  td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    min-width: 150px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  
+  th:first-child,
+  td:first-child {
+    position: sticky;
+    left: 0;
+    background-color: #fff;
+    z-index: 2;
+  }
+  
+  .open-market {
+    background-color: #d4edda;
+  }
+  
